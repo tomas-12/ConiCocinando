@@ -1,0 +1,80 @@
+body{
+    height: 300px;
+    margin: 0%;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 60px);
+    height: 100px;
+    padding: 5%;
+    background-image: url(../imagenes/template2.jpg);
+    background-size: 50%;
+    background-position: center;
+    .titulo{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        h1{
+            font-size: 50px;
+            font-family: 'Satisfy', cursive;
+        }
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-family: 'Caveat', cursive;
+        font-size: 30px; 
+        background-color: burlywood;
+        border-color: peru;
+        border-style: solid;
+    }
+}
+.landing {
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+    grid-template-rows: 368px;
+    column-gap: 10px;
+    border-color: burlywood;
+    background-color: burlywood;
+    border-style: solid;
+    border-width: 10px;
+    .dulces {
+        background-image: url(../imagenes/dulce-wallpaper.jpg);
+        background-position: center;
+        background-size: cover;
+        grid-column-start: 0;
+        grid-column-end: 1;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .saladas {
+        background-image: url(../imagenes/salado-wallpaper.jpg);
+        background-position: center;
+        background-size: cover;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .landing-titles {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        border-color:peru;
+        border-radius: 5px;
+        border-width: 5px;
+        border-style: solid;
+        a {
+            color: burlywood;
+            list-style: none;
+            text-decoration: none;
+        }
+    }
+}

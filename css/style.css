@@ -1,0 +1,126 @@
+body {
+  height: 300px;
+  margin: 0%;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (60px)[3];
+      grid-template-rows: repeat(3, 60px);
+  height: 100px;
+  padding: 5%;
+  background-image: url(../imagenes/template2.jpg);
+  background-size: 50%;
+  background-position: center;
+}
+
+header .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .titulo h1 {
+  font-size: 50px;
+  font-family: 'Satisfy', cursive;
+}
+
+header h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  background-color: burlywood;
+  border-color: peru;
+  border-style: solid;
+}
+
+.landing {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (fr)[2];
+      grid-template-columns: repeat(2, fr);
+  -ms-grid-rows: 368px;
+      grid-template-rows: 368px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  border-color: burlywood;
+  background-color: burlywood;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.landing .dulces {
+  background-image: url(../imagenes/dulce-wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  -ms-grid-column: 0;
+      grid-column-start: 0;
+  grid-column-end: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landing .saladas {
+  background-image: url(../imagenes/salado-wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landing .landing-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-color: peru;
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.landing .landing-titles a {
+  color: burlywood;
+  list-style: none;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
