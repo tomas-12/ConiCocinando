@@ -1,6 +1,7 @@
 body{
     height: 300px;
     margin: 0%;
+    background-color: burlywood;
 }
 header{
     display: grid;
@@ -75,6 +76,100 @@ header{
             color: burlywood;
             list-style: none;
             text-decoration: none;
+        }
+    }
+}
+.recetasdulces{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    .recetarioD {
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        grid-template-rows: repeat(2, 200px);
+        row-gap: 1px;
+        column-gap: 1px;
+        width: 80%;
+        .TDM {
+            grid-column-start: 0;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .CC {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .BDB {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .TT {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .GDVYC {
+            grid-column-start: 0;
+            grid-column-end: 1;
+            grid-row-start: 2;
+            grid-row-end: 2;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .GDQ {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 2;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .CCFR {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 2;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .GDV {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
