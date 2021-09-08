@@ -139,16 +139,22 @@ header h2 {
           justify-content: center;
 }
 
+.recetasdulces p {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+}
+
 .recetasdulces .recetarioD {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (200px)[3];
-      grid-template-columns: repeat(3, 200px);
-  -ms-grid-rows: (200px)[2];
-      grid-template-rows: repeat(2, 200px);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
   row-gap: 1px;
   -webkit-column-gap: 1px;
           column-gap: 1px;
+  margin-top: 5%;
   width: 80%;
 }
 
@@ -162,6 +168,10 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -182,6 +192,10 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -202,6 +216,10 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -222,6 +240,10 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -242,6 +264,10 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -262,6 +288,10 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -282,6 +312,10 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -302,6 +336,10 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
