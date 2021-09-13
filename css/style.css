@@ -125,6 +125,55 @@ header h2 {
   text-decoration: none;
 }
 
+.RD {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (60px)[3];
+      grid-template-rows: repeat(3, 60px);
+  height: 60px;
+  padding: 5%;
+  background-image: url(../imagenes/template2.jpg);
+  background-size: 50%;
+  background-position: center;
+}
+
+.RD .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.RD .titulo h1 {
+  font-size: 50px;
+  font-family: 'Satisfy', cursive;
+}
+
+.RD h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  background-color: burlywood;
+  border-color: peru;
+  border-style: solid;
+}
+
 .recetasdulces {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,15 +196,24 @@ header h2 {
 .recetasdulces .recetarioD {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (200px)[3];
+      grid-template-columns: repeat(3, 200px);
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
-  row-gap: 1px;
-  -webkit-column-gap: 1px;
-          column-gap: 1px;
-  margin-top: 5%;
-  width: 80%;
+  margin-top: 1%;
+  width: 860px;
+  row-gap: 20px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.recetasdulces .recetarioD img {
+  height: 200px;
+  width: 200px;
+}
+
+.recetasdulces .recetarioD .div {
+  width: auto;
 }
 
 .recetasdulces .recetarioD .TDM {
@@ -168,10 +226,6 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -192,10 +246,6 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -216,10 +266,6 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -240,10 +286,6 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -264,10 +306,6 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -288,10 +326,6 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -312,10 +346,6 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -336,10 +366,6 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -357,8 +383,13 @@ header h2 {
   transition: all 0.3s ease-out;
 }
 
-.button :hover {
-  background-color: peru;
+.box {
+  width: auto;
+}
+
+.box :hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
