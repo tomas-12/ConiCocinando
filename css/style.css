@@ -376,6 +376,15 @@ header h2 {
           justify-content: center;
 }
 
+.recetasdulces .textodeimagen {
+  z-index: 1;
+  position: absolute;
+  visibility: hidden;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  color: white;
+}
+
 .button {
   text-decoration: none;
   cursor: pointer;
@@ -387,11 +396,19 @@ header h2 {
   width: auto;
 }
 
-.box :hover {
+.box :hover img {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+}
+
+.box :hover .textodeimagen {
+  visibility: visible;
+  -webkit-transform: none;
+          transform: none;
 }
 
 .overlay {
