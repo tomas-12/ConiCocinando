@@ -32,6 +32,12 @@ header .titulo {
           align-items: center;
 }
 
+header .titulo a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
 header .titulo h1 {
   font-size: 50px;
   font-family: 'Satisfy', cursive;
@@ -377,12 +383,15 @@ header h2 {
 }
 
 .recetasdulces .textodeimagen {
+  width: 150px;
   z-index: 1;
   position: absolute;
+  text-align: center;
   visibility: hidden;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: medium;
   color: white;
+  white-space: initial;
 }
 
 .button {
